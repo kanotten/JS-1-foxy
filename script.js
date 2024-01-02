@@ -50,3 +50,30 @@ let random = [55656, "Green", { name: "Hesh", age: 31},
 ["boy", "girl", "whatever"]
 ]; // Array can holw many thing, as is a larger storage box. Positions start with 0,1,2,3 etc so first is 0.
 console.log(random[0]);
+
+// Type Conversion
+
+let year = "1992"; // string
+
+// fromt string to number
+
+let convertedYear = parseInt(year);
+console.log(convertedYear);
+
+
+//convert number to string
+
+let num = 123;
+
+console.log(num.toString()); //this does not add it out of it scope for further use, thats way we add a variable instead.
+
+let convertedNumber = num.toString();
+
+console.log(convertedNumber); // same result, but can be used out of it scope for further use. because its stored as a variable
+
+
+
+// working task 1
+
+
+
