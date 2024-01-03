@@ -111,6 +111,10 @@ console.log(typeof emptyValue); // object / empty value
 //working task 3
 
 let numString = "25";
+console.log(numString);
+
+let convertednumString = parseInt(numString);
+console.log(convertednumString);
 
 let theNum = parseInt(numString);
 
@@ -118,10 +122,15 @@ let num2 = 50;
 
 let numString2 = num2.toString();
 
+console.log(theNum);
+console.log(numString2);
 
-console.log("numString2:", numString2); // Output: 50
 
-console.log("num + num2:", theNum + num2); // Output: 75
+console.log(theNum + num2); // 75
+console.log(num2 + theNum); // also 75 since they are both integers ( 50 + 25 = 25 + 50)
+console.log(numString + numString2); // 2550 as a string (both are strings and not integers)
+console.log(numString2 + numString);// 5025 as both are strings, whatever comes first goes first.
+// a+b = ab, b + a = ba, a + b + c = abc c + b+ a = cba as long as it is strings.
 
 
 
